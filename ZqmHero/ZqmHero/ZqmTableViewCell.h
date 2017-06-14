@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ZqmTableViewCell.h
 //  ZqmHero
 //
 //  Created by 张清美 on 2017/5/25.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UITableViewController
-
-
+@class ZqmHero;
+@interface ZqmTableViewCell : UITableViewCell
+@property (nonatomic, strong) ZqmHero *hero;
 @end
-

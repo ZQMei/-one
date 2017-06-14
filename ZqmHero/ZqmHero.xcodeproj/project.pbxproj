@@ -35,6 +35,8 @@
 		C6F030141ED68CDA008C798C /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F030021ED68CDA008C798C /* UIImageView+HighlightedWebCache.m */; };
 		C6F030151ED68CDA008C798C /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F030041ED68CDA008C798C /* UIImageView+WebCache.m */; };
 		C6F030161ED68CDA008C798C /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F030061ED68CDA008C798C /* UIView+WebCacheOperation.m */; };
+		C6F030191ED69DCB008C798C /* ZqmHero.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F030181ED69DCB008C798C /* ZqmHero.m */; };
+		C6F0301C1ED6A010008C798C /* ZqmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F0301B1ED6A010008C798C /* ZqmTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,10 @@
 		C6F030041ED68CDA008C798C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		C6F030051ED68CDA008C798C /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		C6F030061ED68CDA008C798C /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		C6F030171ED69DCB008C798C /* ZqmHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZqmHero.h; sourceTree = "<group>"; };
+		C6F030181ED69DCB008C798C /* ZqmHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZqmHero.m; sourceTree = "<group>"; };
+		C6F0301A1ED6A010008C798C /* ZqmTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZqmTableViewCell.h; sourceTree = "<group>"; };
+		C6F0301B1ED6A010008C798C /* ZqmTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZqmTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,10 @@
 				C6F02FBE1ED68C98008C798C /* AppDelegate.m */,
 				C6F02FC01ED68C98008C798C /* ViewController.h */,
 				C6F02FC11ED68C98008C798C /* ViewController.m */,
+				C6F0301A1ED6A010008C798C /* ZqmTableViewCell.h */,
+				C6F0301B1ED6A010008C798C /* ZqmTableViewCell.m */,
+				C6F030171ED69DCB008C798C /* ZqmHero.h */,
+				C6F030181ED69DCB008C798C /* ZqmHero.m */,
 				C6F02FC31ED68C98008C798C /* Main.storyboard */,
 				C6F02FC61ED68C98008C798C /* Assets.xcassets */,
 				C6F02FC81ED68C98008C798C /* LaunchScreen.storyboard */,
@@ -236,6 +246,7 @@
 		C6F02FAF1ED68C98008C798C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = Zqm;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = itheima;
 				TargetAttributes = {
@@ -284,6 +295,7 @@
 				C6F030141ED68CDA008C798C /* UIImageView+HighlightedWebCache.m in Sources */,
 				C6F0300B1ED68CDA008C798C /* SDWebImageDecoder.m in Sources */,
 				C6F030151ED68CDA008C798C /* UIImageView+WebCache.m in Sources */,
+				C6F0301C1ED6A010008C798C /* ZqmTableViewCell.m in Sources */,
 				C6F02FE41ED68CD2008C798C /* AFURLSessionManager.m in Sources */,
 				C6F0300D1ED68CDA008C798C /* SDWebImageDownloaderOperation.m in Sources */,
 				C6F0300E1ED68CDA008C798C /* SDWebImageManager.m in Sources */,
@@ -303,6 +315,7 @@
 				C6F02FE21ED68CD2008C798C /* AFURLRequestSerialization.m in Sources */,
 				C6F02FE31ED68CD2008C798C /* AFURLResponseSerialization.m in Sources */,
 				C6F02FDF1ED68CD2008C798C /* AFHTTPSessionManager.m in Sources */,
+				C6F030191ED69DCB008C798C /* ZqmHero.m in Sources */,
 				C6F030111ED68CDA008C798C /* UIImage+GIF.m in Sources */,
 				C6F030081ED68CDA008C798C /* NSData+ImageContentType.m in Sources */,
 				C6F030131ED68CDA008C798C /* UIImage+WebP.m in Sources */,
@@ -460,6 +473,7 @@
 				C6F02FD01ED68C98008C798C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
